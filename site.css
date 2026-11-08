@@ -1,0 +1,52 @@
+.wrapper {
+   margin: 0 auto;
+   max-width: 64rem;
+} 
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;  
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav {
+    
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+nav li {
+
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .25rem;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+main {
+   padding: 1rem ;
+   background-color: white ;
+}
+
+footer {
+   clear: both;
+   text-align: center;
+}
